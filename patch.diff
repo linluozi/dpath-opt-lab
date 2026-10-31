@@ -1,0 +1,13 @@
+diff --git a/dpath/segments.py b/dpath/segments.py
+index f1443f0..dd7b1db 100644
+--- a/dpath/segments.py
++++ b/dpath/segments.py
+@@ -1,6 +1,7 @@
+ from copy import deepcopy
+ from fnmatch import fnmatchcase
+-from typing import Sequence, Tuple, Iterator, Any, Union, Optional, MutableMapping, MutableSequence
++from collections.abc import Sequence, MutableSequence, MutableMapping
++from typing import Tuple, Iterator, Any, Union, Optional
+ 
+ from dpath import options
+ from dpath.exceptions import InvalidGlob, InvalidKeyName, PathNotFound

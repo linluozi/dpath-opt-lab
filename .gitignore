@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+node_modules/
+*.egg-info/
+src/dpath_baseline/dpath/__pycache__/
+src/dpath_opt/dpath/__pycache__/
